@@ -12,22 +12,29 @@
         </a>
     </header>
 
-    <main style="text-align: center;">
-        <div>
+    <main>
+        <div style="text-align: center;">
             <img src="images/smit-logo.jpg" alt="Smit logo image" width="200">
             <h1>Students Registration Form</h1>
         </div>
 
         <div>
             <form action="">
-                <table align="center" cellpadding="20">
+                <table align="center" cellpadding="10">
                     <tr>
-                        <td>First Name: </td>
-                        <td>
-                            <input type="text">
-                        </td>
+                       <td><label for="first-name">First Name: </label></td>
+                       <td><input type="text" name="first-name" id="first-name" placeholder="Enter your first name" required></td>
                     </tr>
 
+                    <tr>
+                       <td><label for="last-name">Last Name: </label></td>
+                       <td><input type="text" name="last-name" id="last-name" placeholder="Enter your last name" required></td>
+                    </tr>
+
+                    <tr>
+                       <td><label for="birth-date">Date of Birth: </label></td>
+                       <td><input type="date" name="birth-date" id="birth-date" placeholder="Enter your last name" required></td>
+                    </tr>
                 </table>
             </form>
         </div>
