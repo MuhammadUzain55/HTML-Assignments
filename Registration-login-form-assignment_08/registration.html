@@ -23,17 +23,60 @@
                 <table align="center" cellpadding="10">
                     <tr>
                        <td><label for="first-name">First Name: </label></td>
-                       <td><input type="text" name="first-name" id="first-name" placeholder="Enter your first name" required></td>
+                       <td><input type="text" name="first-name" id="first-name" placeholder="Enter your first name" required> (max 30 characters a-z and A-Z)</td>
                     </tr>
 
                     <tr>
                        <td><label for="last-name">Last Name: </label></td>
-                       <td><input type="text" name="last-name" id="last-name" placeholder="Enter your last name" required></td>
+                       <td><input type="text" name="last-name" id="last-name" placeholder="Enter your last name" required>(max 30 characters a-z and A-Z)</td>
+                    </tr>
+
+                    <tr>
+                       <td><label for="email">Email ID: </label></td>
+                       <td><input type="email" name="email" id="email" placeholder="Enter your email" required></td>
+                    </tr>
+
+                    <tr>
+                       <td><label for="phone-number">Phone Number: </label></td>
+                       <td><input type="number" name="phone-number" id="phone-number" placeholder="Enter Phone number" required> (10 Digits Number)</td>
                     </tr>
 
                     <tr>
                        <td><label for="birth-date">Date of Birth: </label></td>
-                       <td><input type="date" name="birth-date" id="birth-date" placeholder="Enter your last name" required></td>
+                       <td><input type="date" name="birth-date" id="birth-date"></td>
+                    </tr>
+
+                    <tr>
+                       <td><label for="gender">Gender: </label></td>
+                       <td>
+                        Male<input type="radio" name="gender" id="gender" value="m" checked>
+                        Female<input type="radio" name="gender" id="gender" value="f">
+                       </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="address">Address: </label></td>
+                        <td><textarea name="address" id="address" cols="30" rows="5"></textarea></td>
+                    </tr>
+
+                    <tr>
+                       <td><label for="city-name">City: </label></td>
+                       <td><input type="text" name="city-name" id="city-name" placeholder="Enter your city name" required> (max 30 characters a-z and A-Z)</td>
+                    </tr>
+
+                    <tr>
+                       <td><label for="postal-code">Postal Code: </label></td>
+                       <td><input type="number" name="postal-code" id="postal-code" placeholder="Postal code" required> (6 Digits Numbers)</td>
+                    </tr>
+
+                    <tr>
+                       <td><label for="state">State: </label></td>
+                       <td><input type="text" name="state" id="state" placeholder="Enter the state" required> (max 30 characters a-z and A-Z)</td>
+                    </tr>
+
+                    <tr>
+                       <td><label for="country-name">Country: </label></td>
+                       <td><input type="text" name="country-name" id="country-name" placeholder="Enter the country name" required></td>
                     </tr>
                 </table>
             </form>
