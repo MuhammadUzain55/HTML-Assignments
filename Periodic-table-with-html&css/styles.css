@@ -1,0 +1,14 @@
+td {
+    background-color: skyblue;
+    padding: 5px;
+    border-radius: 6px;
+    width: 1rem;
+    height: 0.1rem;
+    font-size: 12px;
+    text-align: center;
+}
+
+td sup {
+    display: block;
+    text-align: start;
+}
