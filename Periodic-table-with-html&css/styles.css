@@ -2,7 +2,7 @@ body {
     font-family: sans-serif;
 }
 
-td {
+.periodic-table {
     background-color: skyblue;
     padding: 3px;
     border-radius: 10px;
@@ -21,7 +21,7 @@ td sup {
 }
 
 td span {
-    font-size: 10px;
+    font-size: 8px;
 }
 
 .main-text {
