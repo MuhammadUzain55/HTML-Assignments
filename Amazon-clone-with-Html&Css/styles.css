@@ -1,3 +1,23 @@
-/* body {
-    background-color: black;
-} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar {
+    height: 80px;
+    background-color: #131921;
+}
+
+.logo-img img {
+    width: 113px;
+    height: 60px;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
