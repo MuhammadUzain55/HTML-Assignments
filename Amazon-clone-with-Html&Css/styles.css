@@ -2,16 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #navbar {
     height: 80px;
     background-color: #131921;
-}
-
-.logo-img img {
-    width: 113px;
-    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .border {
@@ -20,4 +20,41 @@
 
 .border:hover {
     border: 1.5px solid white;
+}
+
+/* Logo styling */
+
+.logo-img img {
+    width: 113px;
+    height: 60px;
+}
+
+/* Location styling */
+
+.delivery-location {
+    display: flex;
+    font-size: 0.7rem;
+    color: #cccccc;
+}
+
+.delivery-location i {
+    padding-top: 10px;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.country-name {
+    margin-left: 4px;
+}
+
+.country-name span {
+    display: block;
+    font-size: 1rem;
+    color: white;
+}
+
+/* Searching styling */
+
+.search-section {
+    display: flex;
 }
