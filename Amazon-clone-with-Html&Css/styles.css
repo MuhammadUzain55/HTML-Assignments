@@ -57,25 +57,25 @@
 
 .search-section {
     display: flex;
-}
-
-.search-section .drop-down select {
+    background-color: pink;
+    border-radius: 10px;
     width: 2.5rem;
     height: 2.5rem;
 }
 
+/* .search-section .drop-down select {
+    
+} */
+
 .search-section .search-input input {
-    width: 30rem;
-    height: 2.5rem;
+    /* width: 30rem;
+    height: 2.5rem; */
     padding: 5px;
 }
 
 .search-section .search-icon {
     background-color: white;
     color: black;
-    height: 2.5rem;
+    /* height: 2.4rem; */
 }
 
-/* .search-section .search-icon i {
-    color: ;
-} */
