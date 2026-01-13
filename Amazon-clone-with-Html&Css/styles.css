@@ -63,8 +63,9 @@
 }
 
 .search-section .drop-down select {
-    width: 2.5rem;
+    width: 2.9rem;
     height: 2.5rem;
+    text-align: center;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
     border: none;
@@ -82,10 +83,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: #F3A847;
     color: black;
-    height: 2.4rem;
-    width: 2rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    font-size: 1.5rem;
     border-bottom-right-radius: 3px;
     border-top-right-radius: 3px;
 }
