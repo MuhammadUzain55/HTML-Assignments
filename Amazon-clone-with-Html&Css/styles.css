@@ -57,9 +57,12 @@
 
 .search-section {
     display: flex;
-    background-color: pink;
     border-radius: 5px;
     overflow: hidden;
+}
+
+.search-section:click {
+    border: 2px solid #F3A847;
 }
 
 .search-section .drop-down select {
