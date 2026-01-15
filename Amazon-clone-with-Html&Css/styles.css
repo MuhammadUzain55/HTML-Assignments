@@ -6,7 +6,7 @@
 }
 
 #navbar {
-    height: 80px;
+    height: 60px;
     background-color: #131921;
     color: white;
     display: flex;
@@ -53,7 +53,7 @@
     color: white;
 }
 
-/* Searching styling */
+/* Search styling */
 
 .search-section {
     display: flex;
@@ -70,8 +70,8 @@
     width: 2.9rem;
     height: 2.5rem;
     text-align: center;
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
     border: none;
     background-color: #f3f3f3;
 }
@@ -82,6 +82,7 @@
     padding: 5px;
     border: none;
     outline: none;
+    font-size: 1rem;
 }
 
 .search-section .search-icon {
@@ -93,7 +94,50 @@
     height: 2.5rem;
     width: 2.5rem;
     font-size: 1.5rem;
-    border-bottom-right-radius: 3px;
-    border-top-right-radius: 3px;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
 }
 
+/* Language section */
+
+.language-section {
+    display: flex;
+    align-items: center;
+}
+
+.language-section div {
+    margin: 0 5px;
+}
+
+.flag-alpha {
+    display: flex;
+    align-items: center;
+    
+}
+
+.flag-alpha img {
+    width: 1.1rem;
+    height: 0.9rem;
+}
+
+.flag-alpha p {
+    font-size: 0.8rem;
+}
+
+.account-page {
+    font-size: 0.8rem;
+}
+
+.account-page span {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.returns-orders {
+    font-size: 0.8rem;
+}
+
+.returns-orders span {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
