@@ -61,8 +61,9 @@
     overflow: hidden;
 }
 
-.search-section:click {
-    border: 2px solid #F3A847;
+.search-section:focus-within {
+    outline: 3px solid #FF9900;
+    /* outline-offset: 1px; */
 }
 
 .search-section .drop-down select {
@@ -80,6 +81,7 @@
     height: 2.5rem;
     padding: 5px;
     border: none;
+    outline: none;
 }
 
 .search-section .search-icon {
