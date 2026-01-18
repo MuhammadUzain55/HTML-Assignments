@@ -20,13 +20,14 @@
 
 .border:hover {
     border: 1.5px solid white;
+    border-radius: 3px;
 }
 
 /* Logo styling */
 
 .logo-img img {
-    width: 120px;
-    height: 70px;
+    width: 105px;
+    height: 35px;
 }
 
 /* Location styling */
@@ -77,12 +78,13 @@
 }
 
 .search-section .search-input input {
-    width: 35rem;
+    width: 38rem;
     height: 2.5rem;
     padding: 5px;
     border: none;
     outline: none;
     font-size: 1rem;
+    /* text-align: center; */
 }
 
 .search-section .search-icon {
@@ -106,7 +108,8 @@
 }
 
 .language-section div {
-    margin: 0 9px;
+    margin: 0 5px;
+    padding: 8px 5px;
 }
 
 .flag-alpha {
@@ -148,7 +151,7 @@
 }
 
 .cart p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 700;
-    padding-top: 5px;
+    padding-top: 9px;
 }
