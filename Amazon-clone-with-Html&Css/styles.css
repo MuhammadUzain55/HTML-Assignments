@@ -155,3 +155,32 @@
     font-weight: 700;
     padding-top: 9px;
 }
+
+/****** Nav Panel */
+
+.nav-panel {
+    background-color: #232F3E;
+    height: 40px;
+    color: white;
+}
+
+.panel-sections {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+    gap: 10px;
+}
+
+.panel-menu i {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.panel-categories {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
