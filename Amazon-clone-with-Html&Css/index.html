@@ -15,55 +15,66 @@
 </head>
 
 <body>
-    <header id="navbar">
-        <div class="logo-img">
-            <img class="border" src="images/amazon_logo.png" alt="logo image">
-        </div>
+    <header>
+        <div id="navbar">
+            <div class="logo-img">
+                <img class="border" src="images/amazon_logo.png" alt="logo image">
+            </div>
 
-        <div class="delivery-location border">
-            <i class="ri-map-pin-line"></i>
-            <div class="country-name">
-                <p>Delivery to<span>Pakistan</span></p>
+            <div class="delivery-location border">
+                <i class="ri-map-pin-line"></i>
+                <div class="country-name">
+                    <p>Delivery to<span>Pakistan</span></p>
+                </div>
+            </div>
+
+            <div class="search-section">
+                <div class="drop-down">
+                    <select name="departments" id="department">
+                        <option value="all-departments">All</option>
+                        <option value="Arts&crafts">Arts & Crafts</option>
+                        <option value="automotive">Automotive</option>
+                        <option value="Baby">Baby</option>
+                        <option value="Beauty & Personal Care">Beauty & Personal Care</option>
+                    </select>
+                </div>
+
+                <div class="search-input">
+                    <input type="search" name="search" id="search" placeholder="Search Amazon">
+                </div>
+
+                <div class="search-icon">
+                    <i class="ri-search-line"></i>
+                </div>
+            </div>
+
+            <div class="language-section">
+                <div class="flag-alpha border">
+                    <img src="images/flag-img.jpg" alt="This is a flag imaage">
+                    <p>PK</p>
+                </div>
+
+                <div class="account-page border">
+                    <p>Hello, sign in <br><span>Account & Lists</span></p>
+                </div>
+
+                <div class="returns-orders border">
+                    <p>Returns <br><span>& Orders</span></p>
+                </div>
+
+                <div class="cart border">
+                    <i class="fa-solid fa-cart-arrow-down"></i>
+                    <p>Cart </p>
+                </div>
             </div>
         </div>
 
-        <div class="search-section">
-            <div class="drop-down">
-                <select name="departments" id="department">
-                    <option value="all-departments">All</option>
-                    <option value="Arts&crafts">Arts & Crafts</option>
-                    <option value="automotive">Automotive</option>
-                    <option value="Baby">Baby</option>
-                    <option value="Beauty & Personal Care">Beauty & Personal Care</option>
-                </select>
-            </div>
-
-            <div class="search-input">
-                <input type="search" name="search" id="search" placeholder="Search Amazon">
-            </div>
-
-            <div class="search-icon">
-                <i class="ri-search-line"></i>
-            </div>
-        </div>
-
-        <div class="language-section">
-            <div class="flag-alpha border">
-                <img src="images/flag-img.jpg" alt="This is a flag imaage">
-                <p>PK</p>
-            </div>
-
-            <div class="account-page border">
-                <p>Hello, sign in <br><span>Account & Lists</span></p>
-            </div>
-
-            <div class="returns-orders border">
-                <p>Returns <br><span>& Orders</span></p>
-            </div>
-
-            <div class="cart border">
-                <i class="fa-solid fa-cart-arrow-down"></i>
-                <p>Cart </p>
+        <div class="nav-panel">
+            <div class="panel-sections">
+                <div class="panel-menu">
+                    <i class="ri-menu-line"></i>
+                    All
+                </div>
             </div>
         </div>
     </header>
